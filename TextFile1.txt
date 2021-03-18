@@ -1,0 +1,27 @@
+**********************************************************************
+** Visual Studio 2019 Developer Command Prompt v16.9.2
+** Copyright (c) 2021 Microsoft Corporation
+**********************************************************************
+
+C:\Teste>cd Release
+
+18/03/2021  19:19    <DIR>          .
+18/03/2021  19:19    <DIR>          ..
+18/03/2021  00:05            14.336 chp21-0315-euc.exe
+18/03/2021  00:05           708.608 chp21-0315-euc.pdb
+18/03/2021  18:57            16.384 fold.exe
+18/03/2021  18:57           905.216 fold.pdb
+18/03/2021  19:21            13.824 foldmin.exe
+18/03/2021  19:21           823.296 foldmin.pdb
+               6 arquivo(s)      2.481.664 bytes
+               2 pasta(s)   58.291.949.568 bytes disponíveis
+
+C:\Teste\Release>foldmin
+
+C:\Teste\Release>foldmin 2 3
+MDC = 1
+
+C:\Teste\Release>foldmin 20 32 8
+MDC = 4
+
+C:\Teste\Release>
