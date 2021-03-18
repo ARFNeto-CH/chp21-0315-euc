@@ -1,0 +1,29 @@
+18/03/2021  00:05    <DIR>          .
+18/03/2021  00:05    <DIR>          ..
+18/03/2021  00:05            14.336 chp21-0315-euc.exe
+18/03/2021  00:05           708.608 chp21-0315-euc.pdb
+18/03/2021  00:05            14.336 fold.exe
+18/03/2021  00:05           806.912 fold.pdb
+               4 arquivo(s)      1.544.192 bytes
+               2 pasta(s)   57.216.790.528 bytes disponíveis
+
+C:\Forum>cd Release
+
+C:\Forum\Release>fold
+
+C:\Forum\Release>fold 4 8 12 16
+MDC(4,8,12,16) = 4
+
+C:\Forum\Release>fold 4 8 12 16 7
+MDC(4,8,12,16,7) = 1
+
+C:\Forum\Release>fold 4 8
+MDC(4,8) = 4
+
+C:\Forum\Release>fold 4 5 6
+MDC(4,5,6) = 1
+
+C:\Forum\Release>fold 22 121
+MDC(22,121) = 11
+
+C:\Forum\Release>
