@@ -29,6 +29,7 @@ int main(int argc, char** argv)
     for (int i = 1; i < argc; i += 1) valor.push_back(atoi(argv[i]));
     MDC teste(valor); // os valores estao todos no vetor 'valor'
     cout << teste;
+
     return 0;
 };
 
